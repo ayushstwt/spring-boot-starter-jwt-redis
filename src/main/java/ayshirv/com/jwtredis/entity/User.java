@@ -9,7 +9,6 @@ import lombok.*;
 @Table(name = "USERS")
 @AllArgsConstructor
 @NoArgsConstructor
-@RequiredArgsConstructor
 public class User {
 
     @Id
